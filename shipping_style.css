@@ -1,0 +1,283 @@
+* {
+
+}
+
+nav {
+	font-family: Poppins;
+}
+
+.space1{
+/*	width: 0px;*/
+	max-width: 500px;
+  	margin: auto;
+  	border: 1px solid;
+}
+
+h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
+}
+
+h3 {
+	font-size: 32px;
+	color: black;
+	font-family: Poppins;
+}
+
+h5 {
+	text-align: center;
+	font-size: 28px;
+	font-family: Ubuntu;
+}
+
+p {
+	color: black;
+	font-size: 18px;
+	font-family: Poppins;
+}
+
+a{
+	text-decoration: none; 
+	color: #fff;
+}
+
+.button {
+  background-color: #DE440E; /* Green */
+  border: none;
+  color: white;
+  font-family: Poppins;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+/*  margin: 4px 2px;*/
+  margin-top: 20px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  text-align: center;
+ }
+
+ .button2 {
+  background-color: #E54D18; 
+  color: white; 
+  border: 2px solid #E54D18;
+}
+
+.button2:hover {
+  background-color: #CC3501;
+  color: white;
+}
+
+.button4 {border-radius: 12px;}
+
+/*.card-title {
+	font-size: 35px;
+}*/
+
+/*.card-text {
+	font-family: Poppins;
+}*/
+.card {
+	height: 600px;
+}
+.price-font {
+	font-size: 30px;
+}
+
+/*.domestic_container {
+text-align: center;
+
+}*/
+.container1 {
+	margin: 0.3% 0% 0% 0%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #FAFDFE;
+}
+
+.domestic_container {
+/*	background-color: whitesmoke;*/
+	margin: 2% 6% 0% 6%;
+	padding: 2%;
+}
+
+.col {
+	padding: 3%;
+}
+
+/*.separate-card {
+margin: 2px;
+
+}*/
+/*.card1 {
+	padding: 2%;
+}*/
+.container2 {
+	margin: 0.3% 0% 0.4% 0%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #FAFDFE;
+}
+
+.container2-2 {
+	background-color: whitesmoke;
+	margin: 2% 10% 2% 10%;
+	padding: 0.4%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 0.2%;
+}
+
+.container2-2 .card-group .card {
+	height: 500px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.bodyftr{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+.ftr1 {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/*.containeftr{
+	max-width: auto;
+	margin:auto;
+}*/
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+/*responsive*/
+@media(max-width:  900px){
+	.col .card {
+		height: 600px;
+  }
+  h1 {
+	font-size: 40px;
+	}
+	h5 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	p {
+		font-size: 16px;
+	}
+	.container2-2 .card-group .card {
+		height: 420px;
+	}
+	.price-font {
+		font-size: 26px;
+	}
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+	.col .card {
+		height: 650px;
+}
+	.h5 {
+		font-size: 22px;
+	}*/
+	h3 {
+		font-size: 24px;
+	}
+	.container2-2 .card-group .card {
+		height: 460px;
+	}
+
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+	.col .card {
+		height: 600px;
+}
+}
+

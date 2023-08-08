@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home | Logistics Association</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    
+    
+    <link href="https://www.jtexpress.my/icon/favicon.ico" rel="icon">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css?n=0101001" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous">
+    </script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/v4-shims.min.css"
+        integrity="sha512-fHavkBby/gcFEB2taaBfG0DLdHRGrnvkWQNXVZ5Yb/Fj6LkogecQUd6oyvBVsrWPaHSxs5tNza6LUW/Y6Az9lQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127851323-1"></script>
+    <script nonce="zBYkGO2d6pGuL0sWkPItXlTmDAn0Zsn9">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-127851323-1');
+    </script>
+
+
+    <link href="https://www.jtexpress.my/css/app.css" rel="stylesheet">
+    <link href="https://www.jtexpress.my/css/style.css" rel="stylesheet">
+    <style nonce="zBYkGO2d6pGuL0sWkPItXlTmDAn0Zsn9">
+        body {
+            margin: 0;
+        }
+
+        #main-container {
+            min-height: 100vh;
+            position: relative;
+            margin-top: 66px;
+            /* padding-top: 30px; original*/
+            padding-top: 0px
+        }
+
+        #mcmc-notification {
+            width: 100%;
+            /* top: 0px; */
+            /* left: 0; */
+            transition: 0.8s;
+            background-color: #fffbe6;
+            border: 1px solid #ffe58f;
+        }
+
+    </style>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.1/viewer.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.10.1/viewer.css">
+    <meta name="keywords"
+        content="J&T Tracking, jnt tracking, track parcel, parcel track, dimana parcel aku, dimana parcel, jt tracking, J&T track, jt track, track, trace, jnt track, jejak, jejak parcel, cari parcel, malaysia track, international track, j&t sayang, tracking jnt, tracking jt,jt tracking, jt express, jt malaysia, jt tracking number, jt track, jt express malaysia, jt malaysia tracking, jt express tracking, jt courier">
+    <meta name="description"
+        content="Track your parcel with J&T Express Malaysia. Never miss a trace of your parcel. We will always let you updated on your parcel status.">
+
+    <link href="https://www.jtexpress.my/css/slidercaptcha.min.css" rel="stylesheet">
+
+    <style nonce="zBYkGO2d6pGuL0sWkPItXlTmDAn0Zsn9">
+        .div-date {
+            background: red;
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 5%;
+            margin: 5%
+        }
+
+        .div-parcel-info {
+            margin: 2% auto;
+            border-radius: 10px;
+        }
+
+        .accordion-button::after {
+            background-image: none;
+            content: '\f0da';
+            font-family: 'Font Awesome 5 Free';
+            width: initial;
+            font-size: 1.1rem;
+            padding-top: 2px;
+            height: initial;
+            font-weight: 900;
+        }
+
+        .accordion-button:not(.collapsed)::after {
+            background-image: none;
+            transform: rotate(90deg);
+        }
+
+        .accordion-button {
+            border: 0;
+        }
+
+        .accordion-button:focus,
+        .accordion-button:active {
+            outline: 0;
+            box-shadow: 0 0 0 0;
+        }
+
+        .accordion-header,
+        .accordion-collapse {
+            border: 0;
+            background-color: #f2f2f2;
+        }
+
+        .accordion-button:not(.collapsed) {
+            color: initial;
+            background-color: initial;
+        }
+
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+        ul li i:after {
+            content: "";
+            width: 100%;
+            transform: translateY(7px);
+            height: 1px;
+            background: #ccc;
+            position: absolute;
+
+        }
+
+        ul li:last-child i:after {
+            width: 0px;
+        }
+
+        ul li i.active:after {
+            content: "";
+            width: 100%;
+            transform: translateY(7px);
+            height: 1px;
+            background: #32CD32;
+            position: absolute;
+        }
+
+        ul li:last-child i.active:after {
+            width: 0px;
+        }
+
+        i.active {
+            color: #32CD32 !important;
+        }
+
+        ul li img {
+            filter: grayscale(100%);
+        }
+
+        ul li img.active {
+            filter: grayscale(0%);
+        }
+
+        .btn-toggle-accordion:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+        @media (max-width: 360px) {
+            ul li p {
+                font-size: 0.8rem;
+            }
+        }
+
+        @media (max-width: 300px) {
+            ul li p {
+                font-size: 0.7rem;
+            }
+
+            ul li img {
+                width: 2rem;
+            }
+        }
+
+        @media (max-width: 267px) {
+            ul li i:after {
+                content: "";
+                width: 0;
+            }
+
+            ul li i.active:after {
+                content: "";
+                width: 0;
+            }
+        }
+
+        /* https://codepen.io/jakob-e/pen/yakBwJ?editors=1100 */
+        .no-zoom {
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+
+
+
+<body>
+    
+    
+    <style nonce="zBYkGO2d6pGuL0sWkPItXlTmDAn0Zsn9">
+    .dropdown-item:hover {
+        background: red;
+        color: white;
+    }
+
+    .nav-menu {
+        margin-right: 10px;
+    }
+
+    nav.navbar>*,
+    .nav-link {
+        text-transform: uppercase;
+    }
+
+    #navbar-1-div-style {
+        margin-left: 40px;
+    }
+
+    #jt-nav-logo {
+        width: 100px;
+        height: 40px;
+        object-fit: scale-down;
+    }
+
+</style>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+        <div style="margin-left: 40px;" class="d-none d-lg-inline-block"></div>
+        <a class="navbar-brand" href="https://www.jtexpress.my"><img src="https://www.jtexpress.my/img/jnt.png" alt="logo"
+                id="jt-nav-logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="font-size: 13px;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-light nav-menu" id="shippingorder" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Shipping
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="shippingorder">
+                        <li><a href="https://www.jtexpress.my/order"
+                                class="dropdown-item">Domestic Shipping</a></li>
+                        <li><a href="https://www.jtexpress.my/international"
+                                class="dropdown-item">International Shipping</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-light nav-menu" id="services" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="services">
+                        <li><a href="https://www.jtexpress.my/tracking"
+                                class="dropdown-item">Track &amp; Trace</a></li>
+                        <li><a href="https://www.jtexpress.my/shipping-rates"
+                                class="dropdown-item">Shipping Rates</a></li>
+                        <li><a href="https://www.jtexpress.my/services"
+                                class="dropdown-item">Service Types</a></li>
+                        
+                        
+                        
+                        <li><a href="https://www.jtexpress.my/receiver-address-update"
+                                class="dropdown-item">Delivery Address Update</a>
+                        </li>
+                        <li><a href="https://www.jtexpress.my/crm"
+                                class="dropdown-item">Complaint Centre</a>
+                        </li>
+                        <li><a href="https://www.jtexpress.my/claim-form"
+                                class="dropdown-item">Claim Support</a>
+                        </li>
+                        <li><a href="https://www.jtexpress.my/international-shipment"
+                                class="dropdown-item">International Attachment</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-light nav-menu" id="joinus" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Join Us
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="joinus">
+                        <li><a href="https://www.jtexpress.my/e-commerce"
+                                class="dropdown-item">E-Commerce</a></li>
+                        <li><a href="https://www.jtexpress.my/courier-point"
+                                class="dropdown-item">Premium Courier Point</a></li>
+                        <li><a href="https://www.jtexpress.my/ecp"
+                                class="dropdown-item">Exclusive Courier Point</a></li>
+                        <li><a href="https://www.jtexpress.my/vip"
+                                class="dropdown-item">VIP</a></li>
+                        <li><a href="https://www.jtexpress.my/career"
+                                class="dropdown-item">Career</a></li>
+                        <li><a href="https://job.jtexpress.my/" target="_blank"
+                                class="dropdown-item">Part-Timer</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-light nav-menu" id="faq-dropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Info
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="faq-dropdown">
+                        <li>
+                            <a href="https://www.jtexpress.my/about-us" class="dropdown-item">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.jtexpress.my/faq" class="dropdown-item">
+                                FAQ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.jtexpress.my/location" class="dropdown-item">
+                                Outlet Locator
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.jtexpress.my/news" class="dropdown-item">
+                                News
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.jtexpress.my/prohibited/domestic" class="dropdown-item">
+                                Prohibited (Domestic)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.jtexpress.my/customer-guide/1" class="dropdown-item">
+                                Packaging Guide
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto mb-lg-0">
+                                    <li class="nav-item">
+                        <a href="https://www.jtexpress.my/login"
+                            class="nav-link text-light nav-menu">Login</a>
+                    </li>
+                                <li class="nav-item dropdown pe-2">
+                    <a class="nav-link text-light" href="#" role="button" data-bs-toggle="dropdown" id="language"
+                        aria-expanded="false">
+                        LANGUAGE
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="language">
+                        <li><a class="dropdown-item" style="font-size: 13px;"
+                                href="https://www.jtexpress.my/change-language/en">ENGLISH</a>
+                        </li>
+                        <li><a class="dropdown-item" style="font-size: 13px;"
+                                href="https://www.jtexpress.my/change-language/zh_CN">中文</a></li>
+                        <li><a class="dropdown-item" style="font-size: 13px;"
+                                href="https://www.jtexpress.my/change-language/ms">B.MALAYSIA</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+    
+    <div id="main-container">
+        <div class="" id="mcmc-notification" style="z-index: 10;">
+            <div class="container position-relative">
+                <div id="close-mcmc-notification" class="position-absolute" style="right:5px;top:2px;cursor:pointer">
+                    <i class="fas fa-times-circle"></i>
+                </div>
+                <div class="row">
+                    <div class="col-11 col-sm-11 col-md-10 mx-auto pt-3" id="mcmc-survey-page" style="cursor: pointer;">
+                        <h3>
+                            Customer Satisfaction Survey - Courier Service (Individual and Business)
+                        </h3>
+                        <p>
+                            <i>
+                                The Malaysian Communications and Multimedia Commission (MCMC) is conducting a
+                                survey to collect data pertaining to experience and consumer satisfaction
+                                towards service rendered by courier service providers. Click to read more.
+                            </i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wrapper">
+            <div class="container-fluid custom-page-container">
+                        <div class="row">
+        <div class="col-12 col-sm-12 col-md-9 col-lg-8 col-xl-8 mx-auto text-center mb-2">
+            <h3 class="text-center">Track &amp; Trace</h3>
+            <form id="form-tracking" action="https://www.jtexpress.my/tracking" method="POST">
+                <input type="hidden" name="_token" value="vJM2uRTGtQKyA4p5BoBwTc2fVFpobSjbhXKOKRtM">                <div class="input-group mb-3">
+                    <input type="text" class="form-control p-4 no-zoom" placeholder="E.g.: 600000000001,600000000002 "
+                        aria-label="E.g.: 600000000001,600000000002 " aria-describedby="basic-addon2" name="wb" id="wb"
+                        required="required" style="border-top-left-radius: 15px;border-bottom-left-radius: 15px;"
+                        >
+                    <button id="btn-form-tracking-submit" class="btn btn-primary" type="submit"
+                        style="width:80px;border-top-right-radius: 15px;border-bottom-right-radius: 15px;">GO</button>
+                </div>
+                <div class="text-center">Enter your waybill number (separated by comma). Available up to 10 waybills.
+                </div>
+            </form>
+
+            <div id="tracking-info">
+                            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-pod" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Proof of Delivery</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="form-pod">
+                        <p>
+                            Enter last 4 digits of sender/receiver phone number for verification
+                        </p>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="phone" placeholder=" " name="phone" maxlength="4"
+                                required pattern="\d*">
+                            <label for="phone"><span class="text-danger">*
+                                </span>Last 4 digit</label>
+                            <p id="err-phone" class="text-danger err-text"></p>
+                        </div>
+                        <div class="text-center">
+                            <button id="btn-form-pod-submit" type="submit"
+                                class="btn btn-primary">Verify</button>
+                        </div>
+                    </form>
+                    <div class="text-center">
+                        <img id="pod-img" class="w-100 h-100 mb-2" style="object-fit: scale-down" src="">
+                        <a id="pod-url" target="_blank"><button class="btn btn-primary">
+                                <i class="fas fa-image me-2"></i>Open in new tab</button></a>
+                        <div id="pod-no-result">
+                            <p>Sorry, the proof of delivery is not available</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="slideCaptchaModal" tabindex="-1" aria-labelledby="slideCaptchaModalLabel"
+        data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true">
+        
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 1.5rem;">
+                <div class="modal-body position-relative text-center">
+                    
+                    <div class="container">
+                        <div class="row py-3 my-5" style="height: 200px">
+                            <div class="col-12 mx-auto">
+                                <div id="captcha"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://www.jtexpress.my/js/longbow.slidercaptcha.min.js"></script>
+    <script nonce="zBYkGO2d6pGuL0sWkPItXlTmDAn0Zsn9">
+        var viewer = new Viewer(document.getElementById('pod-img'), {
+            title: false,
+            viewed() {
+                // viewer.zoomTo(1);
+            },
+        });
+        var sender = "";
+        var receiver = "";
+
+        $('#form-tracking').submit(function(e) {
+            e.preventDefault();
+            $('#btn-form-tracking-submit').attr('disabled', '');
+            $('#btn-form-tracking-submit').html(
+                '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span><span class="visually-hidden">Loading...</span>'
+            );
+            let loading = '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mx-auto text-center mt-5">' +
+                // '<strong>Loading...</strong>' +
+                '<div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>' +
+                '</div>'
+            $('#tracking-info').html(loading);
+
+            $('#slideCaptchaModal').modal('show');
+        });
+        var captcha = sliderCaptcha({
+            id: 'captcha',
+            width: 280,
+            height: 155,
+            sliderL: 35,
+            sliderR: 10,
+            offset: 10,
+            loadingText: "Loading...",
+            failedText: "Try Again",
+            barText: "Slide right to fill",
+            repeatIcon: 'fa fa-redo',
+            setSrc: function() {
+
+            },
+            onSuccess: function() {
+                $.ajax({
+                    type: "POST",
+                    url: "https://www.jtexpress.my/tracking",
+                    data: {
+                        "_token": "vJM2uRTGtQKyA4p5BoBwTc2fVFpobSjbhXKOKRtM",
+                        "wb": $('#wb').val()
+                    },
+                    success: function(response) {
+                        $('#tracking-info').html(response);
+                        $('#slideCaptchaModal').modal('hide');
+                        captcha.reset();
+                        if (window.location.href.includes('tracking/')) {
+                            window.history.pushState('', '', './' + $('#wb').val());
+                        } else {
+                            window.history.pushState('', '', './tracking/' + $('#wb')
+                                .val());
+                        }
+                    },
+                    error: function(data) {
+                        alert('Unknown Error Occured')
+                    },
+                    complete: function(data) {
+                        $('#btn-form-tracking-submit').removeAttr('disabled');
+                        $('#btn-form-tracking-submit').html(
+                            'GO')
+                        progressBar();
+
+                    }
+                });
+            },
+            onFail: function() {
+
+            },
+            onRefresh: function() {
+
+            }
+        });
+        $('body').on('click', '.btn-pod', function(e) {
+            e.preventDefault();
+            $('#pod-url').css('display', 'none');
+            $('#pod-img').css('display', 'none');
+            $('#pod-img').attr('src', '');
+            $('#pod-no-result').css('display', 'none');
+            $('#form-pod').css('display', 'block');
+            $('#modal-pod').modal('show')
+            sender = $(this).attr('sender')
+            receiver = $(this).attr('receiver')
+            wb = $(this).attr('wb')
+        });
+        $('#form-pod').submit(function(e) {
+            $('.err-text').html('');
+            $('#btn-form-pod-submit').attr('disabled', '');
+            $('#btn-form-pod-submit').html(
+                '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span><span class="visually-hidden">Loading...</span>'
+            );
+            e.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: "https://www.jtexpress.my/proof-of-delivery",
+                data: {
+                    "_token": "vJM2uRTGtQKyA4p5BoBwTc2fVFpobSjbhXKOKRtM",
+                    "wb": wb,
+                    "sender": sender,
+                    "receiver": receiver,
+                    "phone": $('#phone').val()
+                },
+                success: function(response) {
+                    if (response["status"] == "success") {
+                        $('#form-pod').css('display', 'none');
+                        if (response.url) {
+                            $('#modal-pod').modal('hide')
+                            $('#pod-img').attr('src', response.image);
+                            viewer.update()
+                            viewer.show();
+                            // $('#pod-url').attr('href', response.url);
+                            // $('#pod-img').css('display', 'block');
+                            // $('#pod-url').css('display', 'block');
+                            // $('.pod-result').css('display', 'block');
+                        } else {
+                            $('#pod-no-result').css('display', 'block');
+                        }
+                    } else {
+                        if (response["errors"]) {
+                            for (let input in response["errors"]) {
+                                $('#err-' + input).html(response["errors"][input][0]);
+                            }
+                        }
+                    }
+
+
+                },
+                error: function(data) {
+                    alert('Unknown Error Occured')
+                },
+                complete: function(data) {
+                    $('#btn-form-pod-submit').removeAttr('disabled');
+                    $('#btn-form-pod-submit').html(
+                        'Verify'
+                    );
+                }
+            });
+        });
+        $('body').on('click', '.btn-toggle-accordion', function(e) {
+            e.preventDefault();
+            let text = $(this).html().replace(/(\s|\r\n|\n|\r)/gm, "");
+            if (text == "SeeMore") {
+                $(this).html("See Less")
+            } else {
+                $(this).html("See More")
+            }
+        });
+        $(document).ready(function() {
+            progressBar();
+        });
+
+        function progressBar() {
+            $('ul').each(function() {
+                if ($(this).hasClass('pickedup') || $(this).hasClass('diterima') || $(this).hasClass(
+                        '已揽收')) {
+                    $(this).find("li:first-child i").addClass('active');
+                    $(this).find("li:first-child img").addClass('active');
+                } else if ($(this).hasClass('delivered') || $(this).hasClass('dihantar') || $(this).hasClass(
+                        '已签收')) {
+                    $(this).find("li i").addClass('active');
+                    $(this).find("li img").addClass('active');
+                } else if ($(this).hasClass('delivery') || $(this).hasClass('penghantaran') || $(this).hasClass(
+                        '派件中')) {
+                    $(this).find("li:nth-child(-n+3) i").addClass('active');
+                    $(this).find("li:nth-child(-n+3) img").addClass('active');
+                } else {
+                    $(this).find("li:nth-child(-n+2) i").addClass('active');
+                    $(this).find("li:nth-child(-n+2) img").addClass('active');
+
+                }
+            });
+        }
+
+        var x = setInterval(function() {
+            if ("tracking" !== "tracking") {
+                $('#wb').val("tracking")
+                $('#btn-form-tracking-submit').click();
+                clearInterval(x)
+            }
+        }, 500);
+    </script>
+            </div>
+        </div>
+        <footer class="text-center" id="footer"
+        style="background-color:#333333;color:white;position: absolute;bottom:0;left:0;right:0;width:100%;">
+        <div class="container-fluid">
+            
+            <div class="container footer-page-link pt-4">
+                <div class="row">
+                    <div
+                        class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex flex-column text-center text-md-start pt-3">
+                        <h5>
+                            Shipping
+                        </h5>
+                        <a href="https://www.jtexpress.my/order">
+                            Domestic Shipping
+                        </a>
+                        <a href="https://www.jtexpress.my/international">
+                            International Shipping
+                        </a>
+                    </div>
+                    <div
+                        class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex flex-column text-center text-md-start pt-3">
+                        <h5>
+                            Services
+                        </h5>
+                        <a href="https://www.jtexpress.my/tracking">
+                            Track &amp; Trace
+                        </a>
+                        <a href="https://www.jtexpress.my/shipping-rates">
+                            Shipping Rates
+                        </a>
+                        <a href="https://www.jtexpress.my/services">
+                            Service Types
+                        </a>
+                        
+                        <a href="https://www.jtexpress.my/receiver-address-update">
+                            Delivery Address Update
+                        </a>
+                        <a href="https://www.jtexpress.my/crm">
+                            Complaint Centre
+                        </a>
+                        <a href="https://www.jtexpress.my/claim-form">
+                            Claim Support
+                        </a>
+                        <a href="https://www.jtexpress.my/international-shipment">
+                            International Attachment
+                        </a>
+                    </div>
+                    <div
+                        class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex flex-column text-center text-md-start pt-3">
+                        <h5>
+                            Join Us
+                        </h5>
+                        <a href="https://www.jtexpress.my/vip">
+                            VIP
+                        </a>
+                        <a href="https://www.jtexpress.my/e-commerce">
+                            E-Commerce
+                        </a>
+                        <a href="https://www.jtexpress.my/courier-point">
+                            Premium Courier Point
+                        </a>
+                        <a href="https://www.jtexpress.my/ecp">
+                            Exclusive Courier Point
+                        </a>
+                        <a href="https://www.jtexpress.my/career">
+                            Career
+                        </a>
+                        <a href="https://job.jtexpress.my/" target="_blank">
+                            Part-Timer
+                        </a>
+                    </div>
+                    <div
+                        class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex flex-column text-center text-md-start pt-3">
+                        <h5>
+                            Info
+                        </h5>
+                        <a href="https://www.jtexpress.my/about-us">
+                            About Us
+                        </a>
+                        <a href="https://www.jtexpress.my/faq">
+                            FAQ
+                        </a>
+                        <a href="https://www.jtexpress.my/news">
+                            News
+                        </a>
+                        <a href="https://www.jtexpress.my/location">
+                            Outlet Locator
+                        </a>
+                        <a href="https://www.jtexpress.my/prohibited/domestic">
+                            Prohibited (Domestic)
+                        </a>
+                        <a href="https://www.jtexpress.my/customer-guide/1">
+                            Packaging Guide
+                        </a>
+                        <a href="https://www.jtexpress.my/legal">
+                            Terms of Use
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mx-auto" style="width:83%">
+            <div class="row" style="padding-top:10px">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="text-light">Follow Us</div>
+                    <div class="d-flex justify-content-center" style="font-size: 2em;">
+                        <div class="px-1">
+                            <a href="https://www.facebook.com/jntexpressmalaysia" target="_blank">
+                                <i class="fab fa-facebook-square socmed"></i>
+                            </a>
+                        </div>
+                        <div class="px-1">
+                            <a href="https://www.instagram.com/jtexpressmy/" target="_blank">
+                                <i class="fab fa-instagram socmed"></i>
+                            </a>
+                        </div>
+                        <div class="px-1">
+                            <a href="https://www.linkedin.com/company/j-t-express-malaysia-sdn-bhd" target="_blank">
+                                <i class="fab fa-linkedin socmed"></i>
+                            </a>
+                        </div>
+                        <div class="px-1">
+                            <a href="https://twitter.com/jntexpressmy" target="_blank">
+                                <i class="fab fa-twitter-square socmed"></i>
+                            </a>
+                        </div>
+                        <div class="px-1">
+                            <a href="https://www.youtube.com/channel/UCZfbIi4QdozEtl_fvEXbvcQ" target="_blank">
+                                <i class="fab fa-youtube-square socmed"></i>
+                            </a>
+                        </div>
+                        <div class="px-1">
+                            <a href="https://malaysia.cr-cts.com/weixin" target="_blank">
+                                <i class="fab fa-weixin socmed"></i>
+                            </a>
+                        </div>
+                        <div class="px-1">
+                            <a href="https://www.tiktok.com/@jntexpressmy?" target="_blank">
+                                <i class="fab fa-tiktok socmed"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="text-light">J&amp;T Express International</div>
+                    <div>
+                        <a href="https://www.jtexpress.com.cn/aboutUs.html" target="_blank">
+                            <img src="https://www.jtexpress.my/icon/icon-1.png" class="px-1"
+                                style="height:30px;width:30px;object-fit:scale-down">
+                        </a>
+                        <a href="http://www.jet.co.id/" target="_blank">
+                            <img src="https://www.jtexpress.my/icon/icon-2.png" class="px-1"
+                                style="height:30px;width:30px;object-fit:scale-down">
+                        </a>
+                        <a href="https://jtexpress.vn/" target="_blank">
+                            <img src="https://www.jtexpress.my/icon/icon-3.png" class="px-1"
+                                style="height:30px;width:30px;object-fit:scale-down">
+                        </a>
+                        <a href="https://jtexpress.co.th/" target="_blank">
+                            <img src="https://www.jtexpress.my/icon/icon-4.png" class="px-1"
+                                style="height:30px;width:30px;object-fit:scale-down">
+                        </a>
+                        <a href="http://www.jtexpress.ph/" target="_blank">
+                            <img src="https://www.jtexpress.my/icon/icon-5.png" class="px-1"
+                                style="height:30px;width:30px;object-fit:scale-down">
+                        </a>
+                        <a href="https://www.jtexpress.com.kh/" target="_blank">
+                            <img src="https://www.jtexpress.my/icon/icon-6.png" class="px-1"
+                                style="height:30px;width:30px;object-fit:scale-down">
+                        </a>
+                        <a href="https://www.jtexpress.sg/" target="_blank">
+                            <img src="https://www.jtexpress.my/icon/icon-7.png" class="px-1"
+                                style="height:30px;width:30px;object-fit:scale-down">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="text-light">Download Our App</div>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://itunes.apple.com/my/app/j-t-malaysia/id1375858773?mt=8" target="_blank">
+                            <img src="https://www.jtexpress.my/img/app-store.png"
+                                style="height:50px;width:120px;object-fit:scale-down">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.jtexpress.MyClient&hl=en"
+                            target="_blank">
+                            <img src="https://www.jtexpress.my/img/gplay.png"
+                                style="height:50px;width:120px;object-fit:scale-down">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-top:10px">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 py-3" style="background-color:#212528;">
+                    <div>J&amp;T Express (Malaysia) SDN BHD All Rights Reserved © 2018-2022</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <div id="cention-chat-container"></div>
+                <script nonce="zBYkGO2d6pGuL0sWkPItXlTmDAn0Zsn9">
+            $('#wrapper').css('padding-bottom', $('#footer').css('height'));
+            // var myVar;
+
+            // function loader() {
+            //     myVar = setTimeout(showPage, 10);
+            // }
+
+            // function showPage() {
+            //     document.getElementById("loader").style.display = "none";
+            // }
+
+            const $dropdown = $(".dropdown");
+            const $dropdownToggle = $(".dropdown-toggle");
+            const $dropdownMenu = $(".dropdown-menu");
+            const showClass = "show";
+
+            $(window).on("load resize", function() {
+                if (this.matchMedia("(min-width: 768px)").matches) {
+                    $dropdown.hover(
+                        function() {
+                            const $this = $(this);
+                            $this.addClass(showClass);
+                            $this.find($dropdownToggle).attr("aria-expanded", "true");
+                            $this.find($dropdownMenu).addClass(showClass);
+                        },
+                        function() {
+                            const $this = $(this);
+                            $this.removeClass(showClass);
+                            $this.find($dropdownToggle).attr("aria-expanded", "false");
+                            $this.find($dropdownMenu).removeClass(showClass);
+                        }
+                    );
+                } else {
+                    $dropdown.off("mouseenter mouseleave");
+                }
+            });
+            $(document).ready(function() {
+                $('#cookieModal').modal('show');
+            });
+        </script>
+        
+        
+        <script type="text/javascript" nonce="zBYkGO2d6pGuL0sWkPItXlTmDAn0Zsn9">
+            var CentionBaseURL = "https://jtexpress.cust.cention.se";
+        </script>
+        <script src="https://jtexpress.cust.cention.se/cention/chat/js/widget.js" type="text/javascript"
+                nonce="zBYkGO2d6pGuL0sWkPItXlTmDAn0Zsn9"></script>
+        
+        <script nonce="zBYkGO2d6pGuL0sWkPItXlTmDAn0Zsn9">
+            // LIVE CHAT
+            if (typeof CentionChat !== "undefined") {
+                CentionChat("cention-chat-container", {
+                    areaId: [{
+                            "id": 7,
+                            "name": "Johor"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Kelantan / Terengganu"
+                        },
+                        {
+                            "id": 6,
+                            "name": "Kuala Lumpur"
+                        },
+                        {
+                            "id": 8,
+                            "name": "Melaka / Negeri Sembilan"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Pahang"
+                        },
+                        {
+                            "id": 5,
+                            "name": "Perak"
+                        },
+                        {
+                            "id": 1,
+                            "name": "Perlis / Kedah / Penang"
+                        },
+                        {
+                            "id": 9,
+                            "name": "Sabah"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Sarawak"
+                        },
+                        {
+                            "id": 11,
+                            "name": "Klang, Kuala Langat, Petaling Jaya, Putrajaya, Sepang"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Gombak, Hulu Selangor, Hulu Langat, Kuala Selangor, Sabak Bernam"
+                        },
+                    ],
+                });
+            }
+
+            $(document.body).on("click", "#close-mcmc-notification", function() {
+                closeMCMCnoti()
+            });
+
+            function closeMCMCnoti() {
+                // $("#mcmc-notification").css("top", "-350px");
+                $("#mcmc-notification").css("display", "none");
+                $("#main-container").css("padding-top", "30px");
+            }
+
+            $(document.body).on("click", "#mcmc-survey-page", function() {
+                window.location.href = "https://www.jtexpress.my/mcmc-survey";
+            });
+
+            // var mcmcTopCss = $("#mcmc-notification").css("top");
+            var mcmcTopCss = $("#mcmc-notification").css("display");
+
+            function checkNoti() {
+                if (mcmcTopCss == "block") {
+                    closeMCMCnoti()
+                }
+            }
+
+            setInterval(checkNoti, 60000);
+        </script>
+    </div>
+
+</body>
+
+</html>

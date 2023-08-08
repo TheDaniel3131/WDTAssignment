@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Rowdies', cursive;
+}
+
+body{
+	color: #fff;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background: rgb(0,0,9);
+	background: linear-gradient(140deg, rgba(0,0,9,0.981127485173757) 0%, rgba(4,81,149,0.9867297260701156) 54%, rgba(115,196,255,0.9531162806919643) 96%);
+	padding: 10px;
+}
+
+h1{
+
+	font-size: 50px;
+}
+
+h3{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.container{
+	max-width: 900px;
+	width: 100%;
+	padding: 25px 30px;
+	border-radius: 25px;
+	background: rgb(0,0,9);
+	background: linear-gradient(140deg, rgba(115,196,255,0.9531162806919643) 0%, rgba(4,81,149,0.9867297260701156) 54%, rgba(0,0,9,0.981127485173757) 96%);
+}
+
+.container .heading{
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+	text-align: center;
+	padding: 0 0 12px 0;
+}
+
+.container .heading::before{
+	content: "";
+	position: absolute;
+	height: 3px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgb(168,255,249);
+	background: linear-gradient(140deg, rgba(168,255,249,0.981127485173757) 0%, rgba(93,130,249,0.9923319669664741) 50%, rgba(206,160,255,0.9867297260701156) 100%);
+}
+
+.container form .card-details{
+	margin-top: 18px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+form .card-details .card-box{
+	width: calc(100% / 2 - 20px);
+	margin-bottom: 13px;
+}
+
+.card-details .card-box .details{
+	display: block;
+	font-weight: 500;
+	margin-bottom: 2px;
+}
+
+.card-details .card-box input{
+	height: 40px;
+	width: 100%;
+	outline: none;
+	border-radius: 10px;
+	border: 1px solid #0352A4;
+	padding-left: 12px;
+	font-size: 15px;
+	border-bottom-width: 3px;
+	transition: all 0.3s ease;
+}
+
+
+.card-details .card-box input:focus,
+.card-details .card-box input:valid{
+	border-color: #3D83FF;
+}
+
+.card-details .card-box select{
+	height: 40px;
+	width: 100%;
+	outline: none;
+	border-radius: 10px;
+	border: 1px solid #0352A4;
+	padding-left: 12px;
+	font-size: 15px;
+	border-bottom-width: 3px;
+	transition: all 0.3s ease;
+}
+
+.card-details .card-box select:focus,
+.card-details .card-box select:valid{
+	border-color: #3D83FF;
+}
+
+form .select-form .type {
+	font-size: 20px;
+	font-weight: 500;
+	border-bottom: 2px solid;
+}
+
+form .select-form .category{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+form .button{
+	text-align: center;
+}
+
+form .button input{
+	padding: 13px 0;
+	margin-top: 20px;
+	height: 100%;
+	width: 40%;
+	outline: none;
+	color: #fff;
+	border: none;
+	font-size: 20px;
+	font-weight: 500;
+	border-radius: 30px;
+	letter-spacing: 1px;
+	background: rgb(126,209,255);
+	background: linear-gradient(140deg, rgba(126,209,255,1) 0%, rgba(55,123,255,1) 50%, rgba(0,82,173,1) 100%);
+}
+
+form .button input:hover {
+	cursor: pointer;
+	background: rgb(126,209,255);
+	background: linear-gradient(140deg, rgba(0,82,173,1) 0%, rgba(55,123,255,1) 50%, rgba(126,209,255,1) 100%);
+}
+
+@media (max-width: 600px) {
+	body{
+		height: 156vh;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.container{
+		max-width: 100%;
+	}
+	form .card-details .card-box{
+		margin-bottom: 15px;
+		width: 100%;
+	}
+}

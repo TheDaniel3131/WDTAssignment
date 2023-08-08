@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="test.jpg">
+    <link rel="stylesheet" href="domestic&international_shipping_form.css">
+    <title>International Shipping Form | Shipping | Logistics Association</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading"><h2>International Shipping Detail</h2></div>
+        <form action="international_shipping_form.php" method="post">
+            <u><h3>Receiver Detail</h3></u>
+            <div class="card-details">
+                <div class="card-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter receiver full name" name="fullname" required />
+                </div>
+                <div class="card-box">
+                    <span class="details">Phone Number</span>
+                    <input type="number" step=1 placeholder="Enter receiver phone number" name="phonenumber" required />
+                </div>
+                <div class="card-box">
+                    <span class="details">Email</span>
+                    <input type="email" placeholder="Enter your email" name="email" required />
+                </div>
+                <div class="card-box">
+                    <span class="details">Address</span>
+                    <input type="text" placeholder="Enter receiver address" name="address" required />
+                </div>
+                <div class="card-box">
+                    <span class="details">Select Country</span>
+                    <select id="country" name="country" required />
+                        <option value="brunei">Brunei</option>
+                        <option value="singapore">Singapore</option>
+                        <option value="thailand">Thailand</option>
+                        <option value="japen">Japen</option>
+                        <option value="korea">Korea</option>
+                        <option value="taiwan">Taiwan</option>
+                        <option value="united_states">United States</option>
+                        <option value="england">England</option>
+                        <option value="france">France</option>
+                    </select>
+                </div>
+                <div class="card-box">
+                    <span class="details">Select Address Type</span>
+                    <select id="addresstype" name="addresstype" required />
+                        <option value="home">Home</option>
+                        <option value="office">Office</option>
+                    </select>
+                </div>
+            </div>
+            <u><h3>Parcel Detail</h3></u>
+            <div class="card-details">
+                <div class="card-box">
+                    <span class="details">Select Shipping Propose</span>
+                    <select id="shippingpropose" name="shippingpropose" required />
+                        <option value="personal">Personal</option>
+                        <option value="business">Business</option>
+                    </select>
+                </div>
+                <div class="card-box">
+                    <span class="details">Select Address Type</span>
+                    <select id="producttype" name="producttype" required />
+                        <option value="document">Document</option>
+                        <option value="parcel">Parcel</option>
+                    </select>
+                </div>
+                <div class="card-box">
+                    <span class="details">Weight (KG)</span>
+                    <input type="number" step=0.5 placeholder="Enter document/parcel weight" name="weight" required />
+                </div>
+                <div class="card-box">
+                    <span class="details">Quantity</span>
+                    <input type="number" step=1 placeholder="Enter document/parcel quantity" name="quantity" required />
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

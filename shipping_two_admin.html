@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="test.jpg">
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  	<!-- poppins -->
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+	<!-- ubuntu -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  	<link rel="stylesheet" href="shipping_style.css">
+
+	<title>Shipping | Logistics Association</title>
+</head>
+<body>
+	<!-- Navigation Bar-->
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-4">
+		<div class="container">
+			<a href="index.php" class="navbar-brand">Logistics Association</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navmenu">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a href="admindatabase.php" class="nav-link" target="_blank">User Database</a>
+					</li>
+					<li class="nav-item">
+						<a href="trackingadmin.php" class="nav-link">Tracking</a>
+					</li>
+					<li class="nav-item">
+						<a href="shipping_two_admin.html" class="nav-link">Shipping</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.php" class="nav-link" target="_blank">Contact Us</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.php" class="nav-link">Logout</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section class="space1 bg-light bg-gradient">
+		<div>
+		</div>
+	</section>
+
+	<!--List all Shipping-->
+	<section class="container1">
+		<br>
+		<br>
+		<u><h1>Domestic Shipping Rates</h1></u>
+		<div class="domestic_container">
+			<div class="row row-cols-1 row-cols-md-3 g-4">
+  				<div class="col separate-card">
+  				  <div class="card">
+  				    <img src="shipping_images/onetimedelivery.png" class="card-img-top" alt="...">
+  				    <div class="card-body">
+  				      <h5 class="card-title"><i class="bi bi-truck" style="font-size: 26px;color: red;"></i>&nbsp; <b>One-Time Shipment</h5></b>
+  				      <br><br>
+  				      <p class="card-text"><i class="fa fa-hand-o-right" style="font-size:20px;color:red"></i>&nbsp; 'SINGLE' delivery</p>
+  				      <p class="card-text"><i class="fa fa-hand-o-right" style="font-size:20px;color:red"></i>&nbsp; 50KG MAX</p>
+  				      <p class="card-text"><i class="fa fa-hand-o-right" style="font-size:20px;color:red"></i>&nbsp; PARCELS or DOCUMENTS</p>
+  				    </div>
+  				  </div>
+  				</div>
+  				<div class="col">
+  				  <div class="card">
+  				    <img src="shipping_images/standardshipment.png" class="card-img-top" alt="...">
+  				    <div class="card-body">
+  				      <h5 class="card-title"><i class="bi bi-truck" style="font-size: 26px;color: red;"></i>&nbsp; <b>Standard Shipment</h5></b>
+  				      <br><br>
+  				      <p class="card-text"><i class="fa fa-hand-o-right" style="font-size:20px;color:red"></i>&nbsp; 'SINGLE' or 'BULK' delivery</p>
+  				      <p class="card-text"><i class="fa fa-hand-o-right" style="font-size:20px;color:red"></i>&nbsp; 50KG MAX</p>
+  				      <p class="card-text"><i class="fa fa-hand-o-right" style="font-size:20px;color:red"></i>&nbsp; PARCELS or DOCUMENTS</p>
+  				    </div>
+  				  </div>
+  				</div>
+  				<div class="col">
+  				  <div class="card">
+  				    <img src="shipping_images/multiplepiecesshipment.png" class="card-img-top" alt="...">
+  				    <div class="card-body">
+  				      <h5 class="card-title"><i class="bi bi-truck" style="font-size: 26px;color: red;"></i>&nbsp; <b>Multiple Pieces Shipment</h5></b>
+  				      <br>
+  				      <p class="card-text"><i class="fa fa-hand-o-right" style="font-size:20px;color:red"></i>&nbsp; Delivery multiple parcels to same receiver</p>
+  				      <p class="card-text"><i class="fa fa-hand-o-right" style="font-size:20px;color:red"></i>&nbsp; 5KG & 2 parcels MIX</p>
+  				      <p class="card-text"><i class="fa fa-hand-o-right" style="font-size:20px;color:red"></i>&nbsp; 60KG & 8 parcels MAX</p>
+  				      <p class="card-text"><i class="fa fa-hand-o-right" style="font-size:20px;color:red"></i>&nbsp; PARCELS or DOCUMENTS</p>
+  				    </div>
+  				  </div>
+  				</div>
+			</div>
+			<center><button class="button  button2 button4"><a href="domestic_shipping_form_two.html" target="_blank">Ship Now</a></button></center>
+		</div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </section>
+	
+	<section class="container2">
+		<br>
+		<br>
+		<!-- <div class="container1"> -->
+        <u><h1>International Shipping Rates</h1></u>
+        	<br>
+        	<br>
+        	<h5>Easy ways to Ship Internationally Today!!!</h5>
+        	<center><button class="button  button2 button4"><a href="international_shipping_form_two.html" target="_blank">Ship Now</a></button></center>
+        	<div class="container2-2">
+        		<div class="card-group">
+				  	<div class="card">
+				  		<a href="price_list/brunei_price_list.html" target="_blank">
+				    		<img class="card-img-top" src="shipping_images/brunei.png" alt="Brunei">
+				    		<div class="card-body">
+				      			<h3 class="card-title"><i class="fa fa-map-marker" style="font-size:26px;color:red"></i>&nbsp; Brunei</h3>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; West | From <span class="	text-danger">RM<b class="price-font">49.90</b></p></span>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; East | From <span class="	text-danger">RM<b class="price-font">54.90</b></p></span>
+				      			<br>
+				    		</div>
+				    	</a>
+				  	</div>
+					<div class="card">
+						<a href="price_list/singapore_price_list.html" target="_blank">
+				    		<img class="card-img-top" src="shipping_images/singapore.png" alt="Singapore">
+				    		<div class="card-body">
+				      			<h3 class="card-title"><i class="fa fa-map-marker" style="font-size:26px;color:red"></i>&nbsp; Singapore</h3>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; West | From <span class="text-danger">RM<b class="price-font">35.90</b></p></span>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; East | From <span class="text-danger">RM<b class="price-font">44.90</b></p></span>
+				      			<br>
+				    		</div>
+				    	</a>
+				  	</div>
+				  	<div class="card">
+				  		<a href="price_list/thailand_price_list.html" target="_blank">
+				    		<img class="card-img-top" src="shipping_images/thailand.png" alt="Thailand">
+				    		<div class="card-body">
+				      			<h3 class="card-title"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i>&nbsp; Thailand</h3>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; West | From <span class="text-danger">RM<b class="price-font">49.90</b></p></span>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; East | From <span class="text-danger">RM<b class="price-font">54.90</b></p></span>
+				      			<br>
+				    		</div>
+				    	</a>
+				  	</div>
+				</div>
+				<div class="card-group">
+				  	<div class="card">
+				  		<a href="price_list/japen_price_list.html" target="_blank">
+				    		<img class="card-img-top" src="shipping_images/japen.png" alt="Japen">
+				    		<div class="card-body">
+				      			<h3 class="card-title"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i>&nbsp; Japen</h3>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; West | From <span class="text-danger">RM<b class="price-font">110</b></p></span>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; East | From <span class="text-danger">RM<b class="price-font">125</b></p></span>
+				      			<br>
+				    		</div>
+				    	</a>
+				  	</div>
+					<div class="card">
+						<a href="price_list/korea_price_list.html" target="_blank">
+				    		<img class="card-img-top" src="shipping_images/korea.png" alt="Korea">
+				    		<div class="card-body">
+				      			<h3 class="card-title"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i>&nbsp; Korea</h3>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; West | From <span class="text-danger">RM<b class="price-font">110</b></p></span>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; East | From <span class="text-danger">RM<b class="price-font">125</b></p></span>
+				      			<br>
+				    		</div>
+				    	</a>
+				  	</div>
+				  	<div class="card">
+				  		<a href="price_list/taiwan_price_list.html" target="_blank">
+				    		<img class="card-img-top" src="shipping_images/taiwan.png" alt="Taiwan">
+				    		<div class="card-body">
+				      			<h3 class="card-title"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i>&nbsp; Taiwan</h3>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; West | From <span class="text-danger">RM<b class="price-font">59.90</b></p></span>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; East | From <span class="text-danger">RM<b class="price-font">69.90</b></p></span>
+				      			<br>
+				    		</div>
+				    	</a>
+				  	</div>
+				</div>
+				<div class="card-group">
+				  	<div class="card">
+				  		<a href="price_list/united_states_price_list.html" target="_blank">
+				    		<img class="card-img-top" src="shipping_images/usa.png" alt="United States">
+				    		<div class="card-body">
+				      			<h3 class="card-title"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i>&nbsp; United States</h3>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; West | From <span class="text-danger">RM<b class="price-font">350</b></p></span>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; East | From <span class="text-danger">RM<b class="price-font">400</b></p></span>
+				      			<br>
+				    		</div>
+				    	</a>
+				  	</div>
+					<div class="card">
+						<a href="price_list/england_price_list.html" target="_blank">
+				    		<img class="card-img-top" src="shipping_images/england.png" alt="England">
+				    		<div class="card-body">
+				      			<h3 class="card-title"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i>&nbsp; England</h3>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; West | From <span class="text-danger">RM<b class="price-font">300</b></p></span>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; East | From <span class="text-danger">RM<b class="price-font">350</b></p></span>
+				      			<br>
+				    		</div>
+				    	</a>
+				  	</div>
+				  	<div class="card">
+				  		<a href="price_list/france_price_list.html" target="_blank">
+				    		<img class="card-img-top" src="shipping_images/france.png" alt="France">
+				    		<div class="card-body">
+				      			<h3 class="card-title"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i>&nbsp; France</h3>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; West | From <span class="text-danger">RM<b class="price-font">320</b></p></span>
+				      			<p class="card-text"><i class="fa fa-compass" style="font-size:20px;color:red"></i>&nbsp; East | From <span class="text-danger">RM<b class="price-font">360</b></p></span>
+				      			<br>
+				    		</div>
+				    	</a>
+				  	</div>
+				</div>
+			</div>
+        <br>
+        <br>
+        <br>
+    </section>
+	<!-- Footer-->
+	<section class="bg-dark text-light p-4 bodyftr ftr1">
+	<footer class="footer">
+	  	 <div class="container">
+	  	 	<div class="row">
+	  	 		<div class="footer-col">
+	  	 			<h4>Our company</h4>
+	  	 			<ul>
+	  	 				<li><a href="adminloginhome.php#">About Us</a></li>
+	  	 				<li><a href="trackingadmin.php">Find Your Tracking</a></li>
+	  	 				<li><a href="shipping_two_admin.php">Purchase Shipping Order</a></li>
+	  	 				<li><a href="login.php">Login</a></li>
+	  	 			</ul>
+	  	 		</div>
+	  	 		<div class="footer-col">
+	  	 			<h4>Search for Helps</h4>
+	  	 			<ul>
+	  	 				<li><a href="#">FAQ</a></li>
+	  	 				<li><a href="https://fluffyofficialmy.com/pages/shipping-policy" target="_blank">Shipping</a></li>
+	  	 				<li><a href="https://www.auguststoreofficial.com/pages/returns" target="_blank">Return</a></li>
+	  	 				<li><a href="https://www.pmo.gov.my/2019/10/security-and-public-order-policy/" target="_blank">Status of Orders</a></li>
+	  	 				<li><a href="http://treonlinehelp.elite.com/robohelp/robo/server/3E/projects/Elite%203E%20Accounts%20Payable%20User%20Guide/About_Payment_Selection_Generation.htm" target="_blank">Payment Selections</a></li>
+	  	 			</ul>
+	  	 		</div>
+	  	 		<div class="footer-col">
+	  	 			<h4>Learn More About Logistics</h4>
+	  	 			<ul>
+	  	 				<li><a href="https://www.dhl.com/my-en/home/logistics-solutions/green-logistics.html">Green Logistics</a></li>
+	  	 				<li><a href="https://www.dhl.com/my-en/home/our-divisions.html">Our Divisions</a></li>
+	  	 				<li><a href="https://www.dhl.com/my-en/home/about-us/sustainability.html">Sustainability</a></li>
+	  	 				<li><a href="https://www.dhl.com/my-en/home/about-us/partnerships.html">Official Logistics Parterns</a></li>
+	  	 			</ul>
+	  	 		</div>
+	  	 		<div class="footer-col">
+	  	 			<h4>Check out our social medias</h4>
+	  	 			<div class="social-links">
+	  	 				<a href="https://www.facebook.com/ah.hui.7777/" target="_blank"><i class="bi bi-facebook"></i></a>
+	  	 				<a href="https://www.twitter.com"><i class="bi bi-twitter"></i></a>
+	  	 				<a href="https://www.instagram.com/jackin_fu0511/"><i class="bi bi-instagram"></i></a>
+	  	 				<a href="https://www.youtube.com"><i class="bi bi-youtube"></i></a>
+<!-- 	  	 				<a href="https://www.twitch.tv"><i class="bi bi-twitch"></i></a> -->
+	  	 			</div>
+	  	 		</div>
+	  	 	</div>
+	  	 </div>
+	  </footer>
+	  </section>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

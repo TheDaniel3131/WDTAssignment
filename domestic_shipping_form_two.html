@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="test.jpg">
+    <link rel="stylesheet" href="domestic&international_shipping_form.css">
+    <title>Domestic Shipping Form | Shipping | Logistics Association</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading"><h2>Domestic Shipping Detail</h2></div>
+        <form action="domestic_shipping_form.php" method="post">
+            <u><h3>Receiver Detail</h3></u>
+            <div class="card-details">
+                <div class="card-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter receiver full name" name="fullname" required />
+                </div>
+                <div class="card-box">
+                    <span class="details">Phone Number</span>
+                    <input type="number" step=1 placeholder="Enter receiver phone number" name="phonenumber" required />
+                </div>
+                <div class="card-box">
+                    <span class="details">Email</span>
+                    <input type="email" placeholder="Enter your email" name="email" required />
+                </div>
+                <div class="card-box">
+                    <span class="details">Address</span>
+                    <input type="text" placeholder="Enter receiver address" name="address" required />
+                </div>
+                <!-- <div class="select-form">
+                    <span class="type">Select Address Type</span>
+                    <div class="category">
+                        <input type="radio" name="addresstype">Home
+                        <input type="radio" name="addresstype">Office
+                    </div>
+                </div> -->
+                <div class="card-box">
+                    <span class="details">Select Address Type</span>
+                    <select id="addresstype" name="addresstype" required />
+                        <option value="home">Home</option>
+                        <option value="office">Office</option>
+                    </select>
+                </div>
+            </div>
+            <u><h3>Parcel Detail</h3></u>
+            <div class="card-details">
+                <!-- <div class="select-form">
+                    <span class="type">Select Type of Shipping</span>
+                    <div class="category">
+                        <input type="radio" name="shippingtype">One-Time Shipping
+                        <input type="radio" name="shippingtype">Standard Shipping
+                        <input type="radio" name="shippingtype">Multiple Places Shipping
+                    </div>
+                </div> -->
+                <div class="card-box">
+                    <span class="details">Select Shipping Type</span>
+                    <select id="shippingtype" name="shippingtype" required />
+                        <option value="one-time">One-Time Shipping</option>
+                        <option value="standard">Standard Shipping</option>
+                        <option value="multiple">Multiple Places Shipping</option>
+                    </select>
+                </div>
+                <!-- <div class="select-form">
+                    <span class="type">Select Product Type</span>
+                    <div class="category">
+                        <input type="radio" name="producttype">Document
+                        <input type="radio" name="producttype">Parcel
+                    </div>
+                </div> -->
+                <div class="card-box">
+                    <span class="details">Select Address Type</span>
+                    <select id="producttype" name="producttype" required />
+                        <option value="document">Document</option>
+                        <option value="parcel">Parcel</option>
+                    </select>
+                </div>
+                <div class="card-box">
+                    <span class="details">Weight (KG)</span>
+                    <input type="number" step=0.5 placeholder="Enter document/parcel weight" name="weight" required />
+                </div>
+                <div class="card-box">
+                    <span class="details">Quantity</span>
+                    <input type="number" step=1 placeholder="Enter document/parcel quantity" name="quantity" required />
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
